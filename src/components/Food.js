@@ -1,10 +1,12 @@
 import React from 'react';
+//            if (props.hasOwnProperty('image')) { 
 
 const Food = function (props) {
+   
     return <div className="col-3 mb-4">
-        <div className="card">
+        <div className="card">test
   
-       {props.image !==null   ?           
+       { props['image'] != undefined  ?           
         <img src={props.image} className="card-img-top" alt="..." />
        : null }
        
